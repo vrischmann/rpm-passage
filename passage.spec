@@ -1,4 +1,6 @@
 %global commit 1262d308f09db9b243513a428ab4b8fb1c30d31d
+# No debuginfo for this package
+%global debug_package %{nil}
 
 Summary:	A fork of password-store (https://www.passwordstore.org) that uses age (https://age-encryption.org) as backend.
 Name:		passage

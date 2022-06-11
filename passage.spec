@@ -4,6 +4,7 @@ Summary:	A fork of password-store (https://www.passwordstore.org) that uses age 
 Name:		passage
 Version:	10.0
 Release:	1%{?dist}
+BuildArch:	noarch
 
 License:	GPL
 URL:		https://github.com/FiloSottile/passage

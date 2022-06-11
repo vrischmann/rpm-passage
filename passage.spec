@@ -32,5 +32,5 @@ A fork of password-store (https://www.passwordstore.org) that uses age (https://
 
 %changelog
 
-* Sat, 11 Jun 2022 Vincent Rischmann <vincent@rischmann.fr> - 10.0-1
+* Sat Jun 11 2022 Vincent Rischmann <vincent@rischmann.fr> - 10.0-1
 - First version

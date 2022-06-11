@@ -27,9 +27,16 @@ A fork of password-store (https://www.passwordstore.org) that uses age (https://
 
 %files
 %{_bindir}/*
-%{_mandir}/man1/*
+%dir %{_datadir}/bash-completion
+%dir %{_datadir}/bash-completion/completions
+%{_datadir}/bash-completion/completions/passage
+%dir %{_datadir}/fish/vendor_completions.d
+%{_datadir}/fish/vendor_completions.d/passage.fish
+%dir %{_datadir}/zsh
+%dir %{_datadir}/zsh/site-functions
+%{_datadir}/zsh/site-functions/_passage
 
-%license LICENSE
+%license COPYING
 
 %changelog
 
